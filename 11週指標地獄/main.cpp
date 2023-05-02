@@ -1,6 +1,6 @@
-#include "Rectangle.h"
 #include <iostream>
 #include <iomanip>
+#include "Rectangle.h"
 using namespace std;
 Rectangle* sortBySelection(Rectangle rectIn[], int size) {
     Rectangle* rectOut = new Rectangle[size];
